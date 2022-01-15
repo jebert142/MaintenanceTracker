@@ -4,15 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardsComponent } from './dashboards/dashboards.component';
+import { NotificationsComponent } from './notifications/notifications.component';
+import { MaintenanceLoggingComponent } from './maintenance-logging/maintenance-logging.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardsComponent
+    DashboardsComponent,
+    NotificationsComponent,
+    MaintenanceLoggingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
