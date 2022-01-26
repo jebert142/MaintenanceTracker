@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import './dashboards.component.css';
 
 @Component({
   selector: 'app-dashboards',
