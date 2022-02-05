@@ -6,26 +6,3 @@ a.navTitle {
     color: #585050;
     font-size: 1.5rem;
 }
-
-#auth {
-    border: none;
-    font-size: 1.1rem;
-}
-
-.nav-link {
-    margin-top: .5rem;
-    border-radius: 10px;
-    background-color: #22B573;
-    border-style: solid;
-    border-color: #006837;
-    color: #fffffff3;
-}
-
-.nav-link:hover {
-    background-color: #006837;
-}
-
-.nav-link.auth {
-    color: #ffffff;
-    background-color: transparent;
-}

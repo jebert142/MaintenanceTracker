@@ -1,11 +1,14 @@
-<app-main-navigation></app-main-navigation>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2 d-none d-md-block bg-light sidebar">
-      <app-left-navigation></app-left-navigation>
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+<body>
+  <app-main-navigation></app-main-navigation>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block bg-light pt-2 sidebar">
+        <app-left-navigation></app-left-navigation>
+      </nav>
+      <main class="col-md-9 ml-sm-auto col-lg-10 pt-2 px-4" role="main">
+        <app-dashboards></app-dashboards>
+      </main>
     </div>
-    <main class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-      <app-dashboards></app-dashboards>
-    </main>
   </div>
-</div>
+</body>
